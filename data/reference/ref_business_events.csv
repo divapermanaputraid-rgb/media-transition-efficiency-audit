@@ -1,0 +1,27 @@
+Date,Event_Type,Description
+2024-01-15,Data_Quality_Issue,AE Manual Input Error - Missing conversion data
+2024-02-20,Contract_Start,Radio Contract Start - Prambors 12-month deal
+2024-03-01,Seasonal_Campaign,March Event Campaign - Offline Booth Launch
+2024-03-15,Data_Quality_Issue,AE Manual Input Error - Duplicate entries removed
+2024-04-10,Lebaran_Season,Lebaran Season - High traditional media spend
+2024-05-01,Contract_End,TV Contract End - RCTI campaign pause
+2024-06-01,Seasonal_Campaign,June Event Campaign - Mid-year promotion
+2024-06-20,Data_Quality_Issue,AE Manual Input Error - Attribution mismatch
+2024-07-01,Pilot_Launch,TikTok Pilot Project - Testing new platform
+2024-08-15,Data_Quality_Issue,AE Manual Input Error - Revenue reconciliation
+2024-09-10,Contract_Renewal,Radio Contract Renewal - Extended partnership
+2024-10-01,Budget_Increase,Digital Budget Increase - Meta & Google expansion
+2024-11-05,Data_Quality_Issue,AE Manual Input Error - Delayed reporting
+2024-12-20,Year_End_Push,Year-End Push - All channels activated
+2025-01-10,Strategy_Shift,Digital-First Strategy - Reducing traditional spend
+2025-02-15,Data_Quality_Issue,AE Manual Input Error - Last legacy issue
+2025-03-01,Seasonal_Campaign,March Event Campaign - Q1 lead generation
+2025-03-20,Training_Completed,AE Training Completed - New attribution system
+2025-04-01,Lebaran_Season,Lebaran Season - Digital focus this year
+2025-05-15,Contract_End,Radio Contract End - Phasing out traditional
+2025-06-01,Seasonal_Campaign,June Event Campaign - Digital integration
+2025-07-01,Platform_Migration,Platform Migration - New marketing automation
+2025-08-17,Independence_Day,Independence Day - Patriotic campaign
+2025-09-01,Automation_Launch,Automation Launch - End of manual reporting
+2025-10-15,Data_Quality_Issue,AE Manual Input Error - Final cleanup
+2025-11-01,Budget_Reallocation,Budget Reallocation - 70% digital allocation
