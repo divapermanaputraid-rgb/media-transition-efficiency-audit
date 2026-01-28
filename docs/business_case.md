@@ -47,6 +47,11 @@ Tanpa audit data yang terintegrasi, potensi efisiensi biaya tidak teridentifikas
 
 ---
 
+### D. Kegagalan Deteksi Halo Effect
+Tanpa integrasi data, perusahaan tidak bisa melihat bagaimana iklan TV/Radio nasional sebenarnya mendorong kenaikan Organic Search di kanal digital.
+
+Hal ini membuat kanal tradisional seringkali terlihat "berperforma rendah" padahal mereka adalah pemicu trafik utama.
+
 ## 3. Tujuan Proyek
 1. Mengintegrasikan data pengeluaran (`marketing_spend`) dan hasil (`marketing_results`) dalam satu skema data.
 2. Menyediakan dashboard performa yang otomatis dan konsisten.

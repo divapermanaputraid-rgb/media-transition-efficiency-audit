@@ -38,3 +38,17 @@ Analisis difokuskan pada penyediaan dasar data yang lebih andal untuk mendukung 
 
 * **Operational efficiency observation**  
   Mengevaluasi potensi pengurangan beban operasional tim (AE/Planning) melalui perbaikan alur data dan standarisasi pelaporan, tanpa melakukan perhitungan ROI implementasi sistem.
+
+## 5. Temuan Audit
+* **Integritas Data:** Ditemukan 219 baris data konversi yang hilang (Null) pada periode 2024 akibat kesalahan input manual.
+* **Financial Impact:** Kegagalan input ini menyebabkan nilai budget iklan tertentu menjadi tidak terukur efektivitasnya.
+
+## 6. Tech Stack
+* **Python (Pandas, Numpy):** Untuk ETL, audit integritas data, dan simulasi optimasi.
+* **SQL:** Untuk manajemen database dan pembuatan tabel akhir (*final mart*).
+* **Looker Studio / Tableau:** (Opsional) Untuk visualisasi tren performa.
+
+## 7. Data Architecture (3-Layer Schema)
+* **Raw Layer:** Data mentah dengan *noise* 5% hasil input manual AE.
+* **Processed Layer:** Data yang telah dibersihkan dan diintegrasikan.
+* **Reference Layer:** Master data kampanye dan catatan kejadian bisnis (*business events*).
