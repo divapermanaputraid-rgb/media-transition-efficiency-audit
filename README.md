@@ -69,18 +69,16 @@ Berdasarkan hasil audit, terdapat dua tantangan utama:
 ---
 
 ## 5. Strategic Considerations (Data-Informed)
-Temuan dalam proyek ini membuka beberapa pertimbangan strategis:
 
-- **Realokasi Bertahap:**  
-  Simulasi menunjukkan bahwa pengalihan ±15–20% budget dari TV/Radio ke Digital berpotensi mendorong kenaikan ROAS total hingga ±20%.
+- **The "Event" Multiplier Strategy:** Analisis menunjukkan bahwa kanal **Event** memiliki ROAS tertinggi (±140x). Simulasi realokasi budget menunjukkan bahwa memindahkan **20% budget media tradisional** (TV/Radio) dengan pembagian 10% ke Digital dan 10% ke Event, berpotensi menghasilkan:
+  * **Net Revenue Impact:** +Rp 174,63 Miliar.
+  * **Peningkatan ROAS Total:** Dari 23.89x menjadi 31.39x (**+31.43%**).
 
-- **Otomasi Pelaporan:**  
-  Transisi dari pelaporan manual ke automated data pipeline berpotensi menghilangkan missing data secara struktural, bukan sekadar korektif.
+- **Otomasi & Integritas Data:**
+  Audit membuktikan bahwa pelatihan tim dan standarisasi proses (cutoff 20 Maret 2025) berhasil mengeliminasi insiden *missing data*, memastikan setiap rupiah yang dipindahkan dapat terukur secara akurat.
 
-- **Cross-Channel Activation:**  
-  Kanal Event menunjukkan ROAS tertinggi dan berpotensi dimanfaatkan sebagai trigger untuk retargeting melalui kanal digital.
-
-> Catatan: Poin di atas diposisikan sebagai **input analitis**, bukan keputusan bisnis final.
+- **Rekomendasi:**
+  Mendorong agensi untuk melakukan transisi budget secara agresif ke kanal Event dan Digital guna memaksimalkan *Return on Investment* (ROI) sebelum periode puncak kampanye berikutnya.
 
 ---
 ## 6. Project Structure
