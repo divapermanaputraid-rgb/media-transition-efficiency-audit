@@ -12,7 +12,7 @@ Proyek ini bertujuan membangun fondasi data yang memungkinkan evaluasi performa 
 ## 2. Masalah Utama
 
 ### A. Inefisiensi Proses Pelaporan
-Data performa masih dikompilasi manual oleh tim Account Executive (AE).
+Proses pengumpulan dan konsolidasi data performa masih banyak melibatkan input manual lintas fungsi operasional.
 
 **Dampak:**
 - Tinggi risiko human error
@@ -20,7 +20,7 @@ Data performa masih dikompilasi manual oleh tim Account Executive (AE).
 - Insight sering terlambat atau tidak konsisten
 
 **Peluang:**
-Otomatisasi pipeline data memungkinkan tim AE fokus pada aktivitas bernilai tinggi (client strategy & sales), bukan pelaporan.
+Dengan otomatisasi pipeline data, proses pelaporan dapat distandardisasi sehingga tim operasional dapat lebih fokus pada aktivitas bernilai strategis (perencanaan kampanye, klien, dan optimasi performa).
 
 ---
 
@@ -60,6 +60,6 @@ Hal ini membuat kanal tradisional seringkali terlihat "berperforma rendah" padah
 ---
 
 ## 4. Dampak Bisnis yang Diharapkan
-- **Efisiensi Operasional:** Pengurangan signifikan pekerjaan manual tim AE.
+- **Efisiensi Operasional:** Pengurangan signifikan pekerjaan manual lintas tim.
 - **Kualitas Insight:** Evaluasi performa lintas kanal yang konsisten dan dapat diaudit.
 - **Optimasi Anggaran:** Deteksi dini kanal dengan ROAS rendah untuk realokasi budget yang lebih tepat.
