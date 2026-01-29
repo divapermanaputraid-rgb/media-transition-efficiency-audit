@@ -6,8 +6,14 @@ Analisis dalam proyek ini berfokus pada **efisiensi performa kanal (ROAS)** dan 
 
 Proyek ini diposisikan sebagai **kerangka analitis (analytical framework)** untuk mendukung diskusi strategis dan optimasi alokasi budget lintas tim.
 
+> **Executive Summary:**
+> * **Potential Growth:** Realokasi 20% budget media tradisional ke strategi Hybrid (Digital + Event) berpotensi meningkatkan ROAS total sebesar **31.43%** (+Rp 174,6 Miliar Revenue).
+> * **Operational Integrity:** Audit membuktikan standarisasi pelaporan berhasil mengeliminasi 100% *missing data* pasca-implementasi (sebelumnya ditemukan 219 insiden pada 2024).
+> * **Modern Data Stack:** Integrasi data lintas kanal dikelola menggunakan arsitektur 3-layer SQL (PostgreSQL) dan disimulasikan menggunakan Python untuk pengambilan keputusan berbasis data.
+
+
 ## 1. Project Overview
-Proyek ini merupakan audit performa kampanye marketing selama masa transisi dari media tradisional (TV/Radio) ke kanal Digital dan Event di agensi DMN.
+Proyek ini merupakan audit performa kampanye marketing selama masa transisi dari media tradisional (TV/Radio) ke kanal Digital dan Event di agensi.
 
 Fokus analisis meliputi:
 - Integrasi data lintas kanal
@@ -82,8 +88,8 @@ Berdasarkan hasil audit, terdapat dua tantangan utama:
 
 ---
 ## 6. Project Structure
-- `scripts/01_initial_audit.py`: Identifikasi awal data bolong & pembersihan.
-- `scripts/02_process_master_table.py`: Integrasi data Spend, Results, dan Campaigns.
-- `scripts/03_performance_analysis.py`: Kalkulasi ROAS tahunan dan per kanal.
-- `scripts/04_event_analysis.py`: Koreksi performa dengan Business Events & audit pasca-training.
+- `scripts/`: Python logic untuk audit data, integrasi, analisis ROAS, dan simulasi strategi (01-05).
+- `sql_queries/`: Implementasi database schema (Staging, Reference, Mart) dan query analytics (00-02).
+- `data/`: Penyimpanan dataset (Raw, Reference, Processed).
+- `docs/`: Dokumentasi teknis (Data Dictionary) dan kerangka bisnis.
 
