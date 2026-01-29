@@ -85,3 +85,15 @@ Analisis efektivitas berdasarkan kejadian bisnis (Seasonality vs Operation).
 | **Revenue_IDR** | Float | Total pendapatan selama durasi kejadian berlangsung. |
 | **Days_Count** | Integer | Jumlah hari durasi kejadian untuk normalisasi data. |
 | **ROAS** | Float | Efisiensi kanal selama periode kejadian tertentu. |
+
+
+### Table: `final_looker_data.csv`
+
+| Kolom | Tipe | Deskripsi |
+| :--- | :--- | :--- |
+| `Date` | Date | Tanggal rekaman aktivitas. |
+| `Channel` | String | Sumber media (Digital, TV, Radio). |
+| `Spend_IDR` | Numeric | Biaya iklan dalam Rupiah. |
+| `Revenue_IDR` | Numeric | Pendapatan yang dihasilkan. |
+| `Event_Type` | String | Kategori event bisnis. |
+| `Weighted_ROAS` | Calculated | Hasil pembagian Total Revenue / Total Spend.

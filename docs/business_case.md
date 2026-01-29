@@ -63,3 +63,9 @@ Hal ini membuat kanal tradisional seringkali terlihat "berperforma rendah" padah
 - **Efisiensi Operasional:** Pengurangan signifikan pekerjaan manual lintas tim.
 - **Kualitas Insight:** Evaluasi performa lintas kanal yang konsisten dan dapat diaudit.
 - **Optimasi Anggaran:** Deteksi dini kanal dengan ROAS rendah untuk realokasi budget yang lebih tepat.
+
+## 5. Hasil Audit & Dampak Nyata (2025)
+Berdasarkan implementasi framework ini, berikut adalah hasil yang dicapai:
+* **Eliminasi Data Leakage:** Berhasil menurunkan insiden missing data dari **219 (2024)** menjadi **0 (Pasca-Maret 2025)**.
+* **Efisiensi Terukur:** Mengidentifikasi lonjakan ROAS Digital dari **1.2x menjadi 3.5x**.
+* **Potensi Finansial:** Rekomendasi realokasi budget 20% diproyeksikan memberikan tambahan revenue sebesar **Rp 174,6 Miliar**.
