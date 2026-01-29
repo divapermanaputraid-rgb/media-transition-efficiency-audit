@@ -27,7 +27,7 @@ Tujuan utama proyek ini adalah membangun dasar pengambilan keputusan yang lebih 
 
 ### A. Integritas Data & Operasional
 - **Data Leakage:**  
-  Ditemukan **219 insiden missing data** pada kolom konversi sepanjang tahun 2024, yang berasal dari ketergantungan pada input manual tim Account Executive (AE).
+Ditemukan 219 insiden missing data pada kolom konversi sepanjang tahun 2024, yang terjadi pada proses pelaporan yang masih mengandalkan input manual lintas tim operasional.
   
 - **Impact of Process Standardization:**  
   Audit pasca-pelatihan internal (cutoff 20 Maret 2025) menunjukkan penurunan signifikan jumlah missing data.  
