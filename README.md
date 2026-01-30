@@ -19,7 +19,7 @@ Proyek ini memberikan solusi nyata untuk memaksimalkan setiap rupiah yang dikelu
 * **Masalah:** Data iklan berantakan dan sulit dibaca, menyebabkan manajemen sulit mengetahui kanal mana yang benar-benar menghasilkan uang dan mana yang membuang biaya.
 * **Solusi:** Saya membangun **Dashboard Otomatis (Looker Studio)** yang memantau performa pengeluaran perusahaan secara *real-time*. Ini memungkinkan pimpinan mengambil keputusan berdasarkan fakta, bukan asumsi.
 
-![Executive Dashboard](./reports/figures/looker_dashboard_final.png)
+![Executive Dashboard](./reports/figures/looker_dashboard_final.png.png)
 
 ---
 
