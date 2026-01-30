@@ -47,8 +47,12 @@ Audit membuktikan bahwa standarisasi proses (cutoff Maret 2025) berhasil menghen
 ## 5. Project Structure
 Infrastruktur audit disusun menggunakan standar arsitektur data profesional:
 
+```text
 ├── data/            # Staging, Reference, & Processed Data
 ├── docs/            # Dokumentasi Bisnis & Teknis
+│   ├── ad_glossary.md
+│   ├── business_case.md
+│   └── data_dictionary.md
 ├── reports/figures/ # Visualisasi Dashboard & Grafik Analitis
 ├── scripts/         # Pipeline Python (Cleaning, Integration, Simulation)
 ├── sql/             # Database Schemas & Queries
