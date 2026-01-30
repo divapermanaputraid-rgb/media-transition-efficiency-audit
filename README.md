@@ -1,59 +1,43 @@
-# Media Transition & Efficiency Audit  
-*Cross-Channel Performance & Data Integrity Case Study*
+# Optimasi Budget Iklan: Meningkatkan Keuntungan melalui Data
+*Strategi Penghematan Biaya & Peningkatan Efisiensi Pemasaran*
 
 ## ⚠️ Disclaimer
-Analisis dalam proyek ini berfokus pada **efisiensi performa kanal (ROAS)** dan **integritas operasional data**. Laporan ini tidak mencakup perhitungan profitabilitas bersih (*net profit*) karena keterbatasan akses pada data biaya operasional internal. Proyek ini diposisikan sebagai **kerangka analitis (analytical framework)** untuk optimasi alokasi budget.
+Laporan ini berfokus pada **efisiensi biaya iklan (ROAS)** dan **keakuratan data operasional**. Analisis ini dirancang sebagai kerangka kerja strategis untuk mengoptimalkan alokasi budget agar menghasilkan keuntungan maksimal bagi perusahaan.
 
 ---
 
-## 1. Executive Summary
-* **Potential Growth:** Realokasi 20% budget media tradisional ke strategi Hybrid berpotensi meningkatkan ROAS sebesar **31.43%** (+Rp 174,6 Miliar Revenue).
-* **Operational Integrity:** Berhasil mengeliminasi 100% *missing data* pasca-implementasi (sebelumnya ditemukan 219 insiden pada 2024).
-* **Actual Performance (2025):** Mencapai **23.89x ROAS** melalui integrasi data lintas kanal yang terstandarisasi.
+## 1. Ringkasan Hasil (Value Utama)
+Proyek ini memberikan solusi nyata untuk memaksimalkan setiap rupiah yang dikeluarkan perusahaan dalam iklan:
+* **Potensi Keuntungan:** Rekomendasi pemindahan budget berpotensi meningkatkan pendapatan sebesar **Rp 174,6 Miliar**.
+* **Efisiensi Iklan:** Meningkatkan efektivitas iklan digital hingga **3,5x lipat** dibanding tahun sebelumnya melalui audit performa.
+* **Keputusan yang Tepat:** Memperbaiki sistem pencatatan laporan yang sebelumnya eror (219 insiden) menjadi **100% akurat** untuk mencegah salah ambil keputusan bisnis.
+* **Performa Nyata (2025):** Mencapai tingkat pengembalian modal iklan (**ROAS**) sebesar **23.89x**.
 
 ---
 
-## 2. Visual Insights & Dashboard
-Analisis utama dikelola menggunakan **Looker Studio** untuk memantau transisi efisiensi dari media tradisional (TV/Radio) ke kanal Digital secara *real-time*.
+## 2. Masalah & Solusi Bisnis
+* **Masalah:** Data iklan berantakan dan sulit dibaca, menyebabkan manajemen sulit mengetahui kanal mana yang benar-benar menghasilkan uang dan mana yang membuang biaya.
+* **Solusi:** Saya membangun **Dashboard Otomatis (Looker Studio)** yang memantau performa pengeluaran perusahaan secara *real-time*. Ini memungkinkan pimpinan mengambil keputusan berdasarkan fakta, bukan asumsi.
 
-![Executive Dashboard](./reports/figures/looker_dashboard_final.png.png)
-
-* **Efficiency Trend:** Lonjakan performa Digital (3.5x) terlihat jelas pasca-audit Januari 2025.
-* **Event Multiplier:** Kanal Event teridentifikasi sebagai penggerak utama dengan efisiensi di atas rata-rata operasional normal.
+![Executive Dashboard](./reports/figures/looker_dashboard_final.png)
 
 ---
 
-## 3. Documentation & Methodology
-Detail mengenai strategi bisnis, metrik teknis, dan kamus data tersedia di folder `docs/`:
-* [**Business Case & Strategy**](./docs/business_case.md): Latar belakang masalah dan solusi strategis.
-* [**Data Dictionary**](./docs/data_dictionary.md): Struktur dataset `final_looker_data.csv`.
-* [**Marketing Glossary**](./docs/ad_glossary.md): Definisi istilah teknis seperti *Weighted ROAS* dan *Data Leakage*.
+## 3. Cara Kerja Sistem (Infrastruktur Sederhana)
+Meskipun menggunakan teknologi canggih, tujuannya adalah mempermudah operasional harian:
+* **Sistem Otomatisasi (scripts/ & sql/):** Menggantikan proses manual yang lambat dan rawan eror (Excel), sehingga laporan selalu siap secara otomatis.
+* **Panduan Strategis (docs/):** Berisi penjelasan cara mempertahankan dan meningkatkan keuntungan secara berkelanjutan.
+* **Visualisasi (reports/):** Grafik sederhana yang menunjukkan di mana uang perusahaan bekerja paling keras dan di mana pemborosan terjadi.
 
 ---
 
-## 4. Key Audit Findings
-
-### A. Integritas Data
-Audit membuktikan bahwa standarisasi proses (cutoff Maret 2025) berhasil menghentikan kebocoran data pada kolom konversi yang sebelumnya menghambat akurasi evaluasi performa.
-
-### B. Performa Lintas Kanal
-| Era | Media Tradisional | Media Digital |
-|---|---|---|
-| 2024 (Baseline) | 1.1x ROAS | 1.2x ROAS |
-| 2025 (Transition) | 1.1x ROAS | 3.5x ROAS |
-
----
-
-## 5. Project Structure
-Infrastruktur audit disusun menggunakan standar arsitektur data profesional:
+## 4. Struktur Proyek
+Organisasi file disusun secara profesional untuk memastikan keberlanjutan sistem:
 
 ```text
-├── data/            # Staging, Reference, & Processed Data
-├── docs/            # Dokumentasi Bisnis & Teknis
-│   ├── ad_glossary.md
-│   ├── business_case.md
-│   └── data_dictionary.md
-├── reports/figures/ # Visualisasi Dashboard & Grafik Analitis
-├── scripts/         # Pipeline Python (Cleaning, Integration, Simulation)
-├── sql/             # Database Schemas & Queries
-└── README.md
+├── data/            # Data Mentah & Data Olahan
+├── docs/            # Panduan Strategi & Kamus Istilah Bisnis
+├── reports/figures/ # Visualisasi Dashboard & Grafik Performa
+├── scripts/         # Sistem Otomatisasi Laporan (Python)
+├── sql/             # Logika Penarikan Data (Database)
+└── README.md        # Ringkasan Eksekutif
